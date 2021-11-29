@@ -4,9 +4,11 @@ import './index.css';
 import MyList from './MyList';
 import reportWebVitals from './reportWebVitals';
 
+const toDos = ['Listen to Illenium', 'Drink hot cocoa', 'Eat doritios']
+
 ReactDOM.render(
   <React.StrictMode>
-    <MyList />
+    <MyList theList={toDos}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
