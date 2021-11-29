@@ -141,7 +141,7 @@ At this point, our app looks like this:
 
 ## Side note - let's quickly format it a little more nicely!
 
-Since we'll be looking at this for a while, let's make it less of an eyesore. Feel free to change the `index.css` file to include anything you'd like; on mine, I've centered the text and given it a light green background. You can grab mine [here](images/index.css).
+Since we'll be looking at this for a while, let's make it less of an eyesore. Feel free to change the `index.css` file to include anything you'd like; on mine, I've centered the text and given it a light green background. You can grab mine [here](https://github.com/WDI-SEA/react_state_exercises_global/blob/master/images/index.css).
 
 ## Second, props.
 
