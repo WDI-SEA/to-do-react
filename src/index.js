@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MyList from './MyList'
+const theList = ["Do CodeWars Excercise", "Build React App", "Research Redux", "Try out MongoDB"]
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MyList theList={theList}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
