@@ -21,7 +21,7 @@ import ReactDOM from 'react-dom';
 import MyList from './MyList';
 import './index.css';
 
-const toDos = ["Go to Hot Mulligan show", "Regret fast food", "Drink tea"]
+const toDos = ["Go to Hot Mulligan show", "Regret fast food", "Drink tea", "Running"]
 
 ReactDOM.render(
   <MyList theList={toDos}/>,

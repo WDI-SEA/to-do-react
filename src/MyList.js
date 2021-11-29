@@ -34,9 +34,11 @@ class MyList extends Component {
     return (
       <div>
         <h1> Things I should stop procrastinating</h1>
+        <div className='listAndStuff'>
         <ul>
           {todoItems}
         </ul>
+        </div>
       </div>
     )
   }

@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import './App.css'
+import './index.css'
 
 class ListItem extends Component {
     render() {
         return(
             <div>
                 <li>{this.props.task}</li>
-                <hr />
+            
             </div>
         )
     }

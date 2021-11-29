@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: bisque;
+  background-color: #C4DDFC;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -14,6 +14,21 @@ code {
     monospace;
 }
 
+.listAndStuff {
+  display: flex;
+  justify-content: center;
+}
+
 ul {
+  
   list-style-type: none;
 }
+
+li {
+  color: black;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  width: 100%
+}
+
