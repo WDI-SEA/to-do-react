@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.myList {
+  color: whitesmoke;
+  text-align: center;
+}
+.toDo {
+  padding: 15px 0px 0px 0px;
+  border-bottom: 1px solid whitesmoke;
+  list-style-type: none;
+}
