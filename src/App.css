@@ -1,3 +1,8 @@
+* {
+  list-style-type: none;
+  background-color: rgb(184, 215, 240);
+}
+
 .App {
   text-align: center;
 }
