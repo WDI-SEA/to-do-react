@@ -137,7 +137,7 @@ export default MyList
 
 At this point, our app looks like this:
 
-![list-preview](./images/todo-list-1.png)
+![list-preview](https://res.cloudinary.com/doc2wnnmb/image/upload/v1638222379/todo-list-1_xejevl.png)
 
 ## Side note - let's quickly format it a little more nicely!
 
