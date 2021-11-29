@@ -13,6 +13,7 @@ Let's get started!
 
 
 * Fork & Clone
+* run `npm i` to install dependencies
 
 Use `npm start` to start a server that will serve your new React application!
 
