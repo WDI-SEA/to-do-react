@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -26,6 +30,21 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.App ul li {
+  width: 900px;
+  font-size: 24px;
+  list-style-type: none;
+  border-bottom: 1px solid #000;
+}
+
+.App ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.App-form {
+  margin-bottom: 15px;
 }
 
 @keyframes App-logo-spin {
