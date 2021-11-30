@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import MyList from './MyList';
 import reportWebVitals from './reportWebVitals';
+
+const toDos = ['Listening to The Weeknd', 'Eat Pancakes for Lunch', 'Then eat Dinner right after Lunch']
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MyList
+    theList={toDos}
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
