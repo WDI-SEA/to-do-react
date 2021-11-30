@@ -6,7 +6,6 @@ class ListItem extends Component {
     return(
     <div>
     <li>{this.props.task}</li>
-    <hr></hr>
     </div>
     )
   }

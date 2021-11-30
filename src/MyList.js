@@ -9,7 +9,7 @@ class MyList extends Component {
     })
 
     return(
-    <div style={{backgroundColor: "lightyellow"}}>
+    <div class="list">
       <h1>Things I should stop procrastinating:</h1>
       <ul>
         {todoItems}
