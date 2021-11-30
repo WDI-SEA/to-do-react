@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background: repeating-linear-gradient(
+    to bottom,
+   white 0px,
+    aliceblue 40px,
+    rgb(131, 164, 224) 20px
+  );
+}
+li {
+  text-align: center;
+  list-style-position: inside;
+  font-size: 16pt;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
