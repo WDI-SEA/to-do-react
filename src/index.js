@@ -1,6 +1,6 @@
-import { Component } from 'react';
+import { React } from 'react';
 import ReactDom from 'react-dom';
-import { MyList } from "./MyList.jsx";
+import  MyList  from "./MyList";
 import './index.css'
 
 ReactDom.render(
