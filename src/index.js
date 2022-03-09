@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import MyList from './MyList';
 import reportWebVitals from './reportWebVitals';
+
+const List = ["buy ice cream","pick up cat food", "buy groceries"]
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MyList theList={List}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
