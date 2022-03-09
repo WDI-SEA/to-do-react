@@ -14,6 +14,31 @@ code {
     monospace;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #DAF7A6;
+}
+
 li {
-  list-style-type: none;
+  border-bottom: 1px solid #ccc;
+  width: 200px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+div{
+  width: 500px;
+  margin: auto;
+}
+
+ul {
+  width: 200px;
+  margin: auto;
+}
+
+button {
+  margin-bottom: 10px;
 }
