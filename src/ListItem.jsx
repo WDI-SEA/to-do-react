@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import "./App.css";
+import { Component } from 'react';
 
-class ListItem extends Component {
-  render() {
+export default class ListItem extends Component {
+  state = {  } 
+  render() { 
     return (
       <div>
         <li>{this.props.task}</li>
       </div>
-    );
+    )
   }
 }
+ 
 
-export default ListItem;
