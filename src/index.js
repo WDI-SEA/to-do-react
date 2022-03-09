@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// 3. change from App to MyList
+import MyList from './MyList';
 import reportWebVitals from './reportWebVitals';
+
+// 14. make an array of strings that represent your todo items
+const toDos = ["Listen to Hot Mulligan", "Drink hot cocoa", "Eat hot cheetos"]
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  {/*4. change from App to MyList  */}
+  {/* 15. pass the above array into the MyList component */}
+    <MyList theList={toDos} />
   </React.StrictMode>,
   document.getElementById('root')
 );
